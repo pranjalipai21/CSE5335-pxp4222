@@ -2,7 +2,7 @@ $(document).ready(function() {
 	$('#myButton').on('click', function(event) {
         event.preventDefault();
         $.ajax({
-            url: "http://localhost:5000/db",
+            url: "https://cse5335-pxp4222.herokuapp.com/db",
             type: "GET",
             contentType: "application/json; charset=utf-8",
             dataType: 'json',
@@ -28,7 +28,7 @@ $(document).ready(function() {
 
 function drawChart(){
 	
-	$.getJSON('http://localhost:5000/db',function(data){
+	$.getJSON('https://cse5335-pxp4222.herokuapp.com/db',function(data){
 		var dataTable = new google.visualization.DataTable();
 	 dataTable.addColumn('string','Stadium');
 	 dataTable.addColumn('number','Capacity');
@@ -57,7 +57,7 @@ var map = new google.maps.Map(document.getElementById('map'), {
 				 });
 				
 		var infowindow = new google.maps.InfoWindow();
-        $.getJSON('http://localhost:5000/db',function(data){
+        $.getJSON('https://cse5335-pxp4222.herokuapp.com/db',function(data){
 		
         	 $.each(data, function(key, value)
 		 {
