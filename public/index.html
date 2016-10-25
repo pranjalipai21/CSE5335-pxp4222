@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CSE 5335 Project 1 Fall 2016</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js">
+	</script>
+	
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <a class="navbar-brand" href="#page-top">Top ten stadiums in USA</a>
+            </div>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/profile1.png" alt="">
+                    <div class="intro-text">
+                        <span class="name">Cse 5335 Web Data Management</span>
+                        
+                        <span class="skills">Project 1- Fall 2016</span>
+						<hr class="star-light">
+						<a href="#portfolio" id="myButton" class="btn btn-primary page-scroll">Get Started!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Top ten stadiums</h3>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row" style="overflow-x:auto;" align ="center">
+			<table id ="tableData" class="center" border="1px" style ="text-align: center;" width ="50%">
+					
+			</table>
+            </div>    
+        </div>
+    </section>
+
+	 <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Stats</h2>
+                    <hr class="star-light">
+					<div id="piechart" style="width: 550px; height: 500px;float:left;"></div>
+				<div id="map" style="width: 550px; height: 500px;float:right;">
+                </div>
+                </div>
+            </div>
+
+		</div>
+    </section>
+	
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <br><br><br><br><br>
+						<p>Node js</p>
+						<br>
+						<p>GitHub</p>
+						<br>
+						<p>JQuery</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Technologies used</h3>
+						<hr class="star-light">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><img class="img-responsive" src="img/nodejs_logo360.png" alt=""></img></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><img class="img-responsive" src="img/github-256.png" alt=""></img></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><img class="img-responsive" src="img/icon-jquery.png" alt=""></img></a>
+                            </li>
+							<br>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><img class="img-responsive" src="img/ico-2.png" alt=""></img></a>
+                            </li>
+							<li>
+                                <a href="#" class="btn-social btn-outline"><img class="img-responsive" src="img/HTML5.png" alt=""></img></a>
+                            </li>
+							<li>
+                                <a href="#" class="btn-social btn-outline"><img class="img-responsive" src="img/Heroku-01.png" alt=""></img></a>
+                            </li>
+						</ul>
+						
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <br><br><br><br><br>
+						<p>Bootstrap</p>
+						<br>
+						<p>HTML5</p>
+						<br>
+						<p>Deployed in Heroku</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Pranjali Pai (1001234222)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    
+    
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDL309WVrShg9OxcfFWNwWD7EQBYscCwC8&sensor=false"></script>
+
+</body>
+
+</html>
