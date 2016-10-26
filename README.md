@@ -17,6 +17,7 @@
     
 ### What Ubuntu commands are required to deploy and run your server?
   heroku uses git for version control so, 
+  
     $ git add 
     $ git commit
     $ git push heroku master  
