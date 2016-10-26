@@ -1,41 +1,23 @@
-# node-js-getting-started
+# Web Data Management Project 1
+### What server framework did you choose and why?
+  I choose NodeJs frame work. The nodeJs employs push technology which shines in real-time web applications. After 20 years of    request - resposnse paradigm where the client always initiates the communication this works in a way such that the web applications have real-time, two- way communication,where both the client and server can initiate communication, allowing them to exchange data freely. 
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
-
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
-
-## Running Locally
-
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
-
-```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
-```
-
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-## Deploying to Heroku
-
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-## Documentation
-
-For more information about using Node.js on Heroku, see these Dev Center articles:
-
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
-"#CSE5335-pxp4222" 
-#CSE5335-pxp4222
+### What client framework did you choose and why?
+  I choose jQuery framework. Jquery is easy to use. Creating a Web page DOM, adding effects, Ajax calls to the server and adding animations can be done with simplicity with jQuery.JQuery handles crossbrowsers issues which is a great advantage. It has a simple syntax where many lines of javascript code can be replaced by single line of jQuery code, jQuery allows you to incoporate HTML and CSS as well.
+  
+### What aspect of the implementation did you find easy, if any, and why? 
+  As I was working with these frameworks for the first time, I found everything a bit challenging. Working on the NodeJs, which I learnt from getting started with NodeJs on heroku helped me understand how to easily deploy a NodeJs app, this made it easier for me to understand the basics of nodeJs and code the required and also it was easier to deploy on heroku in the end. As usual I downloaded a HTML theme and tweaked that which was not difficult at all.
+  
+### What aspect of the implementation did you find hard, if any, and why?
+  The client side and the server side i.e., jQuery and NodeJs were a bit challenging but after studying both and understanding and with the help of articles found online the implementation over was not hard, even though I hadn't worked any of these frameworks before.
+  
+### What components OTHER than your client and server framework did you install, if any, and if so, what is their purpose for your solution?
+  I have not installed any other components or modules other than the frameworks because the frameworks are comprehensive enough to provide all necessary functionality.
+  
+    
+### What Ubuntu commands are required to deploy and run your server?
+  heroku uses git for version control so, 
+    $ git add 
+    $ git commit
+    $ git push heroku master  
+      
